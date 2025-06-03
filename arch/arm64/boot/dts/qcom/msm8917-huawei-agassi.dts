@@ -418,7 +418,7 @@
 		pins = "gpio67";
 		function = "gpio";
 		drive-strength = <2>;
-		bias-disable;
+bias-disable;
 	};
 };
 
@@ -432,6 +432,14 @@
 	vdd-supply = <&pm8937_l2>;
 	vdda1p8-supply = <&pm8937_l7>;
 	vdda3p3-supply = <&pm8937_l13>;
+	status = "okay";
+};
+
+&venus {
+	status = "okay";
+};
+
+&venus_mem {
 	status = "okay";
 };
 
