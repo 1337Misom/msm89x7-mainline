@@ -88,7 +88,12 @@
 	};
 };
 
+&adsp {
+	status = "okay";
+};
+
 &adsp_mem {
+	size = <0x0 0x1800000>;
 	status = "okay";
 };
 
